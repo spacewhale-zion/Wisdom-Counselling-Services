@@ -16,6 +16,8 @@
     color: white; /* Text color */
     font-family: Arial, sans-serif; /* Font styling */
     box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    margin: 0 auto; 
+    /* max-width: 95.6875rem; */
     
   }
   

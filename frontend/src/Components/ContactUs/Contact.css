@@ -3,10 +3,10 @@
     justify-content: space-between; /* Space between the left and right divs */
     padding: 1.25rem; /* Add some padding */
     width: 100%; /* Optional: Set a max width for the container */
-    margin: 0 auto; /* Center the container */
     margin-bottom: 1.875rem;
     height: auto;
-    margin-top: 20px;
+    margin:1.25rem auto 1.875rem auto;
+    max-width: 95.6875rem;
 }
 
 .contact-left,

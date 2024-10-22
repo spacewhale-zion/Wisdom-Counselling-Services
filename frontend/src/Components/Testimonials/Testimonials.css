@@ -47,6 +47,8 @@
     height: auto;
     justify-items: center;
     align-items: center;
+    margin: 0 auto;
+    max-width: 95.6875rem;
 }
 
 .testimonials-container h1 {

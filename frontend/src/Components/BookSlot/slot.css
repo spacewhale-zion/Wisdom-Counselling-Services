@@ -84,7 +84,8 @@ margin-bottom: 4%;
 margin-left: 12%;
 margin-top: 5%;
 justify-content: space-evenly;
-
+max-width: 1225px;
+    margin: 5% auto 4% auto;
   }
   
   .slot-steps {
@@ -97,8 +98,8 @@ justify-content: space-evenly;
     flex-wrap: wrap;
     width: 79vw;
     justify-content: center;
-    margin-top:0.625rem;
-    margin-bottom:1.5rem;
+    max-width: 1225px;
+    margin: 0.625rem auto 1.5rem auto;
   }
  
   

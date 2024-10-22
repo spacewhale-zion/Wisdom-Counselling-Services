@@ -41,9 +41,11 @@ function Services() {
 
     useEffect(()=>{
 
-        const screenSize=window.innerWidth;
         const updateCardsToShow = () => {
-            if(screenSize<1110){
+        const screenSize=window.innerWidth
+        console.log(screenSize)
+         
+            if(screenSize<1153){
                 setCardsToShow(3);
             }
             if(screenSize<878){
@@ -52,6 +54,10 @@ function Services() {
             if(screenSize<769){
                 setCardsToShow(1);
             }
+            if(screenSize>1230){
+                setCardsToShow(4);
+            }
+          
           };
         updateCardsToShow();
         window.addEventListener('resize', updateCardsToShow);

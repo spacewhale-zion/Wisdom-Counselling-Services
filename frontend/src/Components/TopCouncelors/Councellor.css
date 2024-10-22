@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  
 }
 
 
@@ -50,6 +51,7 @@
     align-items: center;
     margin: 1.25rem;
     gap: 1rem; /* Add space between the info-boxes */
+    margin:0 auto;
 }
 
 .info-box {
@@ -115,9 +117,7 @@
     font-weight: bold;
     box-shadow: 0.125rem 0.125rem 0.625rem 0rem #00000026;
     transition: background-color 0.3s ease;
-    display: flex;
-    margin-left: 18px;
-    justify-content:center;
+  margin: 0 auto;
 }
 
 .card-button:hover {
@@ -136,6 +136,9 @@
     justify-content: center;
     flex-wrap: nowrap;
     opacity: 0rem;
+    margin: 52px auto;
+    margin-bottom: 40px;
+    height: auto;
     
 }
 .top-counselors h1{
@@ -163,13 +166,15 @@ opacity: 0rem;
     justify-content: center; /* Center the cards horizontally */
     flex-wrap: wrap; /* Allow cards to wrap onto the next line if needed */
     /* position: relative; */
-width: 88.8125rem;
+/* width: 88.8125rem; */
 height: 31.375rem;
 /* top: 11.5rem;
 left: 8.125rem; */
-gap: 0rem;
-opacity: 0rem;
-overflow-y: auto;
+gap: 1rem;
+height: auto;
+margin: 0 auto;
+max-width: 1531px;
+
 
 }
 
@@ -178,7 +183,7 @@ overflow-y: auto;
 @media (min-width: 1920px){
 
     .top-counselors-container{
-        overflow: auto;
+        /* overflow: auto; */
     }
 }
 @media (max-width: 1200px) {
@@ -220,7 +225,7 @@ overflow-y: auto;
     }
 
     .top-counselors-container {
-        width: 55rem;
+        /* width: 55rem; */
         margin-left: 5rem;
     }
 }

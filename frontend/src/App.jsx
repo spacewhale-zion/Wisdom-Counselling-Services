@@ -36,9 +36,9 @@ function App() {
 
       </Routes>
     </Router>
-    <ContactUs/>
+     <ContactUs/>
     <Footer/>
-     <Copyright/> 
+     <Copyright/>  
     </>
   );
 }

@@ -61,7 +61,8 @@
   flex-direction: column;
   background: #04092C;
   justify-content: space-around;
-
+  max-width: 95.6875rem;
+    margin: 0 auto;
 
 }
 
@@ -95,6 +96,8 @@
   gap: 1.25rem;
  margin-bottom: 6rem;
   /* margin-left: 4.375rem; */
+  max-width: 93.75rem;
+  margin: 1.25rem auto 96px auto;
 }
 .Services-card{
   display:flex;
