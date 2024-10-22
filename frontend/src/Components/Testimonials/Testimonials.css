@@ -1,0 +1,168 @@
+.testimonial-card {
+    background-color: #f9f9f9; /* Light background color for the card */
+    padding: 1.25rem; /* Padding inside the card */
+    border-radius: 0.9375rem; /* Rounded corners */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    max-width: 25rem; /* Set a max width for the card */
+    text-align: center; /* Center align text and image */
+    margin: 1.25rem; /* Remove auto margin to allow alignment from the start */
+}
+
+.testimonial-review {
+    font-size: 1rem; /* Font size for the review text */
+    color: #333; /* Text color */
+    line-height: 1.5; /* Improve readability */
+    margin-bottom: 1.25rem; /* Space between review and image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+/* Hover effect for testimonial card */
+.testimonial-card:hover {
+    transform: scale(1.1); /* Slightly enlarge the review text */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.testimonial-image {
+    width: 5rem; /* Width of the image */
+    height: 5rem; /* Height of the image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the space */
+    border: 0.125rem solid #00A6F6; /* Optional border around the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+/* Hover effect for testimonial image */
+.testimonial-image:hover {
+    transform: scale(1.2); /* Slightly enlarge the image on hover */
+}
+
+.testimonials-container {
+    text-align: left; /* Align text to the left */
+    padding: 1.25rem;
+    width: 100%; /* Use full width */
+    display: flex; /* Use flexbox to layout children */
+    flex-direction: column; /* Align children in a column */
+    align-items: flex-start; /* Align items to the start */
+    margin-bottom: 1.875rem;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.testimonials-container h1 {
+    font-family: Space Grotesk;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: left;
+    /* position: relative;
+    left: 40%; */
+    color: #1E1E1E;
+}
+
+.testimonials-container span {
+    font-family: Space Grotesk;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: left;
+    color: #00A6F6;
+}
+
+.testimonials-wrapper {
+    display: flex; /* Use flexbox for the wrapper */
+   justify-content: center;
+   align-items: center;
+    margin-top: 1.875rem;
+    width: 100%; /* Use full width */
+    /* overflow: hidden; Hide content that overflows */
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 testimonials in each row */
+    gap: 1.25rem;
+    justify-items: center;
+}
+
+.arrow-button {
+    background: none;
+    border: none;
+    font-size: 1.875rem;
+    cursor: pointer;
+    color: #00A6F6;
+    padding: 0.625rem;
+    /* position: absolute;
+    top: 50%; */
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.left-arrow {
+    left: 0rem;
+    background: #FFFFFF;
+}
+
+.right-arrow {
+    right: 6.25rem;
+    background: #FFFFFF;
+}
+
+.arrow-button:hover {
+    color: #007bb5; /* Darker blue on hover */
+}
+
+.highlight {
+    color: #00A6F6; /* Highlight the text with blue */
+}
+
+.testimonial-item {
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    width: 100%; /* Use full width for items */
+    max-width: 31.25rem; /* Set max width for each testimonial */
+}
+
+.testimonials-button{
+    width: 12.5rem;
+    height: 3rem;
+ 
+    padding: 0.9375rem 2.8125rem 1.5625rem 2.5rem;
+    
+    border-radius: 0.75rem;
+    opacity: 0rem;
+    background: #8D3AEA;  
+     color:white ;
+     font-family: Space Grotesk;
+font-size: 0.875rem;
+font-weight: 700;
+line-height: 1.1162rem;
+text-align: left;
+align-self: self-end;
+
+}
+@media(min-width:1920px){
+    /* .testimonials-grid{
+       
+    } */
+}
+@media(max-width:1200px){
+
+    .testimonials-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media(max-width:780px){
+
+    .testimonials-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .arrow-button {
+        /* display: none; */
+    }
+
+}

@@ -1,0 +1,343 @@
+.hero-sectionBlogs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgba(4, 9, 44, 0.7) 0%, rgba(4, 9, 44, 0.7) 60%, rgba(255, 255, 255, 1) 100%), 
+      url('../../../public/Assests/BlogsHero.png'); /* Apply gradient and background image */
+    background-size: cover; /* Ensure the background covers the entire section */
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the background image */
+    height: 384px; /* Full height of section */
+    padding: 40px; /* Padding around the content */
+    position: relative; /* For positioning child elements */
+    
+    width: 100%; /* Make it 100% width of the viewport */
+    width: 1440px;
+    
+}
+.Blogsdetails-container{
+    width: 1440px;
+height: 561px;
+top: 566px;
+padding: 129px 786px 288px 118px;
+gap: 0px;
+opacity: 0px;
+margin-bottom: 30px;
+}
+.detailsBlog{
+    width: 536px;
+    height: 144px;
+    top: 129px;
+    left: 118px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color:#4F4F4F;
+
+}
+
+.mostly-viewed-container {
+    width: 1440px;
+    height:700px;
+    
+    text-align: center;
+    position: relative;
+    background: #04092C;
+    box-sizing: border-box;
+
+  }
+  .mostly-viewed-header {
+    display: flex;
+    justify-content: space-between; /* Space between title and select */
+    align-items: center; /* Align the items vertically */
+    margin-bottom: 20px;
+    top: 50px;
+    position: relative;
+
+
+  }
+  
+  .mostly-viewed-title {
+   
+    color: #FFFFFF;
+    font-family: Space Grotesk;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+position: relative;
+left: 50px;
+
+  }
+  
+  .mostly-viewed-highlight {
+    color: #00a6f6; /* Highlight color */
+  }
+  
+  /* Styling the select dropdown */
+  .mostly-viewed-today-option-bar {
+    margin-left: auto;
+    width: 126px;
+    height:44px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    position: relative;
+    right: 50px;
+  }
+  
+  .mostly-viewed-select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-family: Space Grotesk;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #1E1E1E;
+;
+
+
+  }
+  
+  
+  .mostly-viewed-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+    /* background: #7E7E7E14;
+    border: 1px solid #DADADA29 */
+
+  }
+  
+  .mostly-viewed-left-arrow{
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+  }
+  .mostly-viewed-right-arrow {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .mostly-viewed-card {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 1028px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    height:460px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #7E7E7E14;
+    border: 1px solid #DADADA29
+
+  }
+  /* .mostly-viewed-card-left{
+    height: 300px;
+    width: 400px;
+  } */
+  .mostly-viewed-card-left img {   
+    
+    height: 460px;
+    width:576px; 
+    object-fit: cover;
+   
+
+  }
+  
+  .mostly-viewed-card-right {
+    padding: 20px;
+    text-align: left;
+  }
+  .blog-text{
+    color: #8D3AEA;
+    ;
+    background: #8D3AEA26;
+
+  }
+  
+  .mostly-viewed-card-right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap:break-word; 
+    max-width: 420px;
+    color: #FFFFFF;
+  }
+  
+  .mostly-viewed-author-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+  
+  .mostly-viewed-profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .mostly-viewed-name {
+   font-family: Space Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.86px;
+text-align: center;
+color: #999999;
+
+    margin-right: 10px;
+  }
+  
+  .mostly-viewed-date {
+    color:  #00A6F6;
+    ;
+  }
+  
+  .mostly-viewed-description {
+    margin-bottom: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap:break-word; 
+    max-width: 420px;
+    color: #FFFFFF;
+  }
+  
+ .blog-button{
+    position: relative;
+    top: 50px;
+    left: 150px;
+
+ }
+
+ /* Main container for services with new feature */
+.ourservice-container.ourservice-new-feature {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Added background color for new feature */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Added shadow for better styling */
+  }
+  
+  /* Header section with new feature */
+  .ourservice-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .ourservice-header span {
+    color: #007BFF; /* Highlight color */
+  }
+  
+  /* Search Input with new feature */
+  .ourservice-search-input.ourservice-new-feature-input {
+    padding: 10px;
+    border: 2px solid #007BFF; /* Thicker border for emphasis */
+    border-radius: 5px; /* Rounded input */
+  }
+  
+  /* Filter dropdown */
+  .ourservice-filter-dropdown {
+    padding: 8px;
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+  
+  /* Card navigation container with new feature */
+  .ourservice-card-navigation.ourservice-new-feature-navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Card container */
+  .ourservice-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    width: 100%;
+  }
+  
+  /* Previous Arrow with new feature */
+  .ourservice-prev-arrow.ourservice-new-feature-arrow {
+    position: absolute;
+    left: -50px; /* Adjusted position based on new feature */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    z-index: 1;
+    transition: transform 0.2s; /* Added transition for hover effect */
+  }
+  
+  /* Next Arrow with new feature */
+  .ourservice-next-arrow.ourservice-new-feature-arrow {
+    position: absolute;
+    right: -50px; /* Adjusted position based on new feature */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    z-index: 1;
+    transition: transform 0.2s; /* Added transition for hover effect */
+  }
+  
+  /* Hover effect for arrows */
+  .ourservice-prev-arrow:hover,
+  .ourservice-next-arrow:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+  }
+  
+  /* Disable arrow button style */
+  .ourservice-prev-arrow:disabled,
+  .ourservice-next-arrow:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Card with new feature */
+  .ourservice-new-feature-card {
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .ourservice-new-feature-card:hover {
+    transform: scale(1.05); /* Slight enlarge effect on hover */
+  }
+  
+  

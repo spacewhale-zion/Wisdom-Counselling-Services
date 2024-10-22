@@ -1,0 +1,234 @@
+.card-containerServices {
+  display: flex;
+  flex-direction: column;
+  border: 0.0625rem solid #ddd;
+  background: #04092C;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  width: 14.375rem;
+  height: 18.125rem;
+  gap: 0rem;
+  border-radius: 1.125rem;
+  margin: 0.625rem; /* Space between cards */
+}
+
+.card-containerServices p {
+  font-family: Space Grotesk;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: left;
+  color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.card-image {
+  width: 100%; /* Full width */
+  height: 11.25rem; /* Fixed height */
+  border-radius: 0.625rem 0.625rem 0 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.card-buttonServices {
+  transform: translateX(4%);
+  border-radius: .5625rem;
+  background-color: #8D3AEA;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0.125rem 0.125rem 0.625rem 0rem #00000026;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 90%;
+  margin-bottom:0.3125rem;
+  margin-left: 2.5%;
+}
+
+.card-buttonServices:hover {
+  background-color: #7327cc;
+}
+
+.top-Services {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: #04092C;
+  justify-content: space-around;
+
+
+}
+
+.top-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9.375rem;
+}
+
+.top-Services h1 {
+  font-family: Space Grotesk;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 7.375rem;
+
+  margin-top: 4rem;
+}
+
+.ExploreService {
+  color: white;
+  margin-top: 6.25rem;
+  margin-right: 6.25rem;
+}
+
+.top-Services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 98vw;
+  gap: 1.25rem;
+ margin-bottom: 6rem;
+  /* margin-left: 4.375rem; */
+}
+.Services-card{
+  display:flex;
+  /* flex-grow: 2; */
+  justify-content: center;
+  width: fit-content;
+}
+.ourservice-card p {
+  color: black;
+}
+
+.arrow-left, .arrow-right {
+  background-color: gray;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  align-self: center;
+  height: 2.5rem;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 1920px){
+  .top-Services{
+
+  }
+  .Services-card{
+display: flex;
+flex-wrap: wrap;
+  }
+  .card-containerServices
+{
+     width: 18%;  
+}
+}
+
+@media (max-width: 1260px) {
+  .top-Services{
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* gap: 3.3125rem; */
+  }
+  .top-Services-container {
+    /* flex-direction: column; */
+    align-content: center;
+      width: 98%;
+      margin-top: 0;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex: 1 1 calc(33.33% - 20px);
+  }
+
+  .card-containerServices {
+      /* width: 12.5rem; */
+      height: 16.25rem;
+      margin: 0.9375rem;
+      top: 18.75rem;
+  }
+  .card-buttonServices {
+      /* width: 11.25rem;
+      height: 2.1875rem; */
+      font-size: 0.875rem;
+  }
+  .arrow-left, .arrow-right {
+      font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 890px) {
+  .card-containerServices {
+      /* width: 45%;
+      height: auto; */
+  }
+  .Services-card{
+    /* flex: 1 1 calc(50% - 20px); */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-image {
+      height: 9.375rem;
+  }
+  .card-buttonServices {
+      /* width: 9.375rem;
+      height: 1.875rem; */
+  }
+  .top-Services h1 {
+      font-size: 1.875rem;
+  }
+  .top-Services-container {
+      width: 100%;
+      gap: 3.625rem;
+      /* flex-direction: column;
+      flex-direction: column; */
+      justify-content: center;
+      align-content: center;
+  }
+  .ExploreService{
+    margin-right:  2.25em;
+  }
+  .arrow-left, .arrow-right {
+      /* top: 21.875rem;
+      font-size: 1.125rem; */
+      /* display: none; */
+  }
+}
+
+@media (max-width: 576px) {
+  .card-containerServices {
+      width: 18.75rem;
+      height: 13.75rem;
+  }
+  .card-buttonServices {
+      width: 7.5rem;
+      height: 1.5625rem;
+      font-size: 0.75rem;
+  }
+  .top-Services h1 {
+      font-size: 1.5rem;
+  }
+  .top-Services-container {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      overflow-y: scroll;
+  }
+  .ExploreService{
+    margin-right:  2.25em;
+  }
+  .arrow-left, .arrow-right {
+      /* display: none; */
+  }
+}
+

@@ -1,0 +1,15 @@
+.hero-sectionContact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgba(4, 9, 44, 0.7) 0%, rgba(4, 9, 44, 0.7) 60%, rgba(255, 255, 255, 1) 100%), 
+      url('../../../public/Assests/full-shot-young-people-church-praying1Contact.png'); /* Apply gradient and background image */
+    background-size: cover; /* Ensure the background covers the entire section */
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the background image */
+    height: 384px; /* Full height of section */
+    padding: 40px; /* Padding around the content */
+    position: relative; /* For positioning child elements */
+    width: 1440px;
+    
+}
