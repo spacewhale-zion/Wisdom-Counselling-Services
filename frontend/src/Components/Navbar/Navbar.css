@@ -1,17 +1,17 @@
 /* Base styles for desktop view */
 .navbar {
     display: flex;
-    justify-content: space-between; /* Space between elements */
-    align-items: center; /* Center items vertically */
-    background-color: #04092C; /* Background color */
-    padding: 10px 20px; /* Padding for navbar */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #04092C;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
     box-sizing: border-box;
-    height: 15vh;
-    margin: 0 auto; 
-    
-  }
+    height: auto; /* Height adjusts based on the smaller of 10% of the viewport height or 80px */
+    margin: 0 auto;
+}
+
   .navbar-left{
     display: flex;
     flex-grow: 2;
@@ -54,12 +54,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
     /* min-width: 43.75rem; */
+    gap: 1rem;
 
 }
 
 /* Styling for links with the hover effect */
 .navbar-links a {
-    margin-left: 1.25rem; /* Space between links */
+  
     text-decoration: none; /* Remove underline */
     color: white; /* Link color */
     position: relative; /* Position for the pseudo-element */

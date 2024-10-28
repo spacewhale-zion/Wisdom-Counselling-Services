@@ -29,14 +29,14 @@
 
 .meet-right {
     flex: 1; /* Right side takes up the other half of space */
-    display: grid; /* Use grid for card layout */
-    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
-    gap: 1.25rem; /* Space between cards */
-    margin-top: 5%;
-     margin-bottom: 10%;
      margin: 5% auto 10% auto;
      height: auto;
-     /* max-width: 750px; */
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 1rem;
+    ;
+     max-width: 750px;
 }
 
 .meet-image {
@@ -147,6 +147,7 @@ text-align: center;
     overflow: hidden; /* Hide content that overflows */
     text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
     align-items: baseline;
+    flex: 1 1 calc(50% - 1rem);
 }
 
 
@@ -172,7 +173,7 @@ text-align: center;
 }
 
 .meet-card-image {
-    width: 1.5rem; /* Make the image responsive */
+    width: 1.5em; /* Make the image responsive */
     height: auto; /* Maintain aspect ratio */
     border-radius: 0.5rem; /* Rounded corners for the image */
     margin-top: 1.4375rem; /* Space below the image */
@@ -186,9 +187,9 @@ text-align: center;
      /* Title color */
     text-align: center; /* Center align text */
     font-family: Space Grotesk;
-font-size: 1.875em;
+font-size: 2em;
 font-weight: 700;
-line-height: 1.25rem;
+line-height: 2rem;
 letter-spacing: -0.02em;
 text-align: left;
 
@@ -196,7 +197,7 @@ text-align: left;
 }
 .meet-card-p{
 margin-left: 2.25rem;
-font-size: 1em;
+/* font-size: 0.5em; */
    
 }
 @media (min-width: 1920px){
@@ -206,12 +207,12 @@ font-size: 1em;
     .meet-container{
         font-size: 30px;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .connect-button{
         height: auto;
         width: 50%;
-        font-size: 1.9375rem;
+        /* font-size: 1.9375rem; */
     }
 
 

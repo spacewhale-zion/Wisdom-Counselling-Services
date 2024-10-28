@@ -244,6 +244,7 @@
 @media (max-width: 72.9375rem){
   .appointment-card{
     flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
 
   }
   .appointment-body{
@@ -252,7 +253,7 @@
 }
 @media (max-width: 48rem) {
   .hero-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: auto;
     padding: 1.25rem; /* Reduce padding for smaller screens */
     background-position: top center; /* Adjust background position */
