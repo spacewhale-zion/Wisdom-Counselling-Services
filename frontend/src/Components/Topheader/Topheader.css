@@ -7,7 +7,7 @@
     box-sizing: border-box;
     position: relative; 
     width: 100%; /* Full width */
-    height: 3vw; /* Fixed height */
+    height: auto; /* Fixed height */
     background-color: var(--PrimaryColor); /* Primary Color */
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space items between */
@@ -58,7 +58,7 @@
     margin: 0 0.3rem; /* Space around the vertical line */
   }
  /* Normal View (Desktop size, non-zoomed, or 100% zoom) */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     .topheader {
         padding: 0 6.25rem; /* Standard padding */
         height: 3vw; /* Standard height */
@@ -74,7 +74,7 @@
   
     .topheader {
         padding: 0 7.5rem; /* Increase padding for a larger viewport */
-        height: 2.5vw; /* Reduce height */
+      
         font-size: 18px; 
     }
     .icon {
